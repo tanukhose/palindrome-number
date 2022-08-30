@@ -49,3 +49,26 @@ while i<len(a):
     else:
         print(b,"not")
 
+  
+
+
+def fa(a):
+    if a==1:
+        return 1
+    return a*fa(a-1)
+print(fa(5))
+
+
+
+
+def pal(a):
+    b=a[::-1]
+    v=a
+    if b==v:
+        return 'PAL'
+    else:
+        return 'NOT'
+u=input("enter the:-")
+print(pal(u))
+
+
